@@ -1,0 +1,168 @@
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+
+}
+
+#features{
+  text-align: center;
+  background-color: #fff;
+  padding: 10% 15%;
+  position: relative;
+}
+
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+
+  color: #fff;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 50px 50px 70px;
+}
+
+#footer{
+  text-align: center;
+  color: #000;
+
+}
+
+.pricing-cards{
+  padding: 3% 2%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.f-icons{
+  color: #ef8172;
+  margin-bottom: 1rem;
+
+}
+
+.f-icons:hover{
+  color: #ff4c68;
+}
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light"
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.download-btn{
+  margin:10% 0 0;
+}
+
+body{
+  font-family: "Montserrat"
+}
+
+h1{
+  font-family: "Montserrat";
+  color: white;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+h2{
+  font-family: "Montserrat";
+  font-weight: 800;
+  /* font-weight: bold; */
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p{
+  line-height: 1;
+  padding: 1% 0;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.features-description{
+  color: #8f8f8f;
+}
+
+.iphone{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.cta-heading{
+  padding: 0 15% 5%;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.ctabtn{
+  margin: 0 2%;
+}
+
+.footer-icon{
+  padding: 5% 1% 0;
+}
+
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+
+  .iphone{
+    position: static;
+    transform: rotate(0);
+    padding: 7% 0;
+  }
+}
